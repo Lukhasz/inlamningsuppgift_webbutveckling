@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='footer'>
       <nav className='footer-nav'>
         <ul className='footer-list'>
           <li><a href="https://www.linkedin.com/in/lukas-kaarle/" target='_blank'>LinkedIn</a></li>
