@@ -29,7 +29,8 @@ button {
   padding: .5rem 1rem;
   border: none;
   background-color: #470063;
-  color: #fff;
+  color: #8380B6;
+
   cursor: pointer;
   transition: background-color .3s ease;
 }
@@ -143,7 +144,7 @@ a::before {
 }
 
 button:hover {
-  background-color: #8380B6;
+  background-color: #0F110C;
 }
 
 textarea::placeholder input::placeholder {
