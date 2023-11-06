@@ -21,6 +21,19 @@ h2 {
   margin-bottom: .5rem;
 }
 
+textarea {
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  padding: .5rem 1rem;
+  border: none;
+  background-color: #470063;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
 .header-nav {
   margin-top: 1rem;
   margin-bottom: 6rem;
@@ -37,6 +50,8 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 80%;
+  margin: auto;
 }
 
 .article {
@@ -44,16 +59,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
-  
-  
-  
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  max-width: 80%; */
+  padding: 2rem 0rem;
 }
 
 .article-container {
@@ -91,12 +97,10 @@ h2 {
   max-width: 100%;
   min-width: 95%;
   resize: vertical;
-  
 }
 
-.contact-form input, .contact-form textarea{
+.contact-form input .contact-form textarea {
   border: 1px solid #ccc;
-  font-size: 1rem;
   color: #333;
 }
 
@@ -138,19 +142,29 @@ a::before {
   size: 1.5rem;
 }
 
-p {
-  max-width: 80%;
-}
-
-button {
-  padding: .5rem 1rem;
-  border: none;
-  background-color: #470063;
-  color: #fff;
-  cursor: pointer;
-  transition: background-color .3s ease;
-}
-
 button:hover {
   background-color: #8380B6;
+}
+
+textarea::placeholder input::placeholder {
+  font-family: Helvetica, sans-serif;;
+}
+
+@media (max-width: 440px) {
+  .contact-us {
+    max-width: 90%;
+    padding: .3rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .article-container {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .article-container {
+    max-width: 60%;
+  }
 }

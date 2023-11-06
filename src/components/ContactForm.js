@@ -28,7 +28,7 @@ const ContactForm = () => {
       <h2>Contact Me!</h2>
       {isSubmitted ? 
         <p style={{color: 'green'}}>Thank you for contacting me, I will be in touch.</p> : 
-        <p>If you have any questions, please contact me here.</p>
+        <p>If you have any questions or business inquiries, please contact me here.</p>
       }
 
       <form className="contact-form" onSubmit={handleSubmit}>
