@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Hero = () => {
+const Title = () => {
   return (
-    <section className='hero-section' id='hero-section'>
+    <section className='title' id='title'>
       <h1>Hello, I'm Lukas, a backend developer</h1>
     </section>
   );
 };
 
-export default Hero;
+export default Title;

@@ -4,7 +4,7 @@ const Header = () => {
 
   const scrollTo = (id) => {
     const element = document.getElementById(id);
-    const y = element.getBoundingClientRect().top + window.pageYOffset - 20; // 20 is the offset
+    const y = element.getBoundingClientRect().top + window.pageYOffset - 20;
     window.scrollTo({ top: y, behavior: 'smooth' });
   };
   
@@ -12,7 +12,7 @@ const Header = () => {
     <header>
       <nav className='header-nav'>
         <ul className='header-list'>
-          <li><a onClick={() => scrollTo('hero-section')}>Home</a></li>
+          <li><a onClick={() => scrollTo('title')}>Home</a></li>
           <li><a onClick={() => scrollTo('about-me')}>About</a></li>
           <li><a onClick={() => scrollTo('projects')}>Projects</a></li>
           <li><a onClick={() => scrollTo('contact')}>Contact</a></li>
@@ -21,8 +21,6 @@ const Header = () => {
     </header>
   );
 };
-
-
 
 
 export default Header;
