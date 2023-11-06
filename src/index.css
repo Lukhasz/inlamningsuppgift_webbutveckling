@@ -21,8 +21,9 @@ h2 {
   margin-bottom: .5rem;
 }
 
-textarea {
+textarea, input {
   font-family: Helvetica, sans-serif;
+  font-size: .8rem;
 }
 
 button {
@@ -92,6 +93,8 @@ button {
   display: flex;
   flex-direction: column;
   gap: .5rem;
+  min-width: 55%;
+  max-width: 80%;
 }
 
 .contact-textarea {

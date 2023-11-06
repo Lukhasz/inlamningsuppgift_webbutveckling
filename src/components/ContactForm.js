@@ -1,19 +1,27 @@
 import React, { useState, useEffect } from "react";
 
+
+  // Define form state and functions, and handle form validation and submission
 const ContactForm = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [isFormValid, setIsFormValid] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+
+  // Check if form is valid
   useEffect(() => {
     const isFormValid = Object.values(form).every((value) => value !== "");
     setIsFormValid(isFormValid);
   }, [form]);
 
+  
+  // Handle form input changes
   const handleChange = (event) => {
     setForm({ ...form, [event.target.name]: event.target.value });
   };
 
+
+  // Handle form submission
   const handleSubmit = (event) => {
     event.preventDefault();
     if (isFormValid) {
@@ -23,6 +31,8 @@ const ContactForm = () => {
     }
   };
 
+  
+  // Render the contact form
   return (
     <div className="contact-us" id="contact">
       <h2>Contact Me!</h2>
