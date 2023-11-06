@@ -71,7 +71,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 60%;
+  max-width: 22rem;
   gap: .5rem;
   padding: 1rem;
   border: 1px solid #ccc;
