@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Header';
+import Header from './components/Header';
 import Title from './Title';
 import Article from './Article';
 import Projects from './Projects';
-import Footer from './Footer';
+import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
 
 

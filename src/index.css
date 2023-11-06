@@ -147,13 +147,13 @@ button:hover {
 }
 
 textarea::placeholder input::placeholder {
-  font-family: Helvetica, sans-serif;;
+  font-family: Helvetica, sans-serif;
 }
 
 @media (max-width: 440px) {
   .contact-us {
     max-width: 90%;
-    padding: .3rem;
+    padding: .1rem;
   }
 }
 
