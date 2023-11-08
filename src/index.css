@@ -43,7 +43,7 @@ button {
 
 .header-list {
   display: flex;
-  gap: 2rem;
+  gap: 1.7rem;
   justify-content: space-evenly;
   margin: .5rem;
 }
